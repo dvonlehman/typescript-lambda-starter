@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "10"
+
+deploy:
+  # Deploy the lambda function on builds of master branch
+  - provider: script
+    skip_cleanup: true
+    script: bash scripts/deploy.sh production
+    on:
+      branch: master
