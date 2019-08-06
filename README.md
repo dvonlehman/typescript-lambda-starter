@@ -1,11 +1,11 @@
-# typescript-lambda-template
+# typescript-lambda-starter
 
-This is a boilerplate template for Lambda functions written in TypeScript.
+This is a starter template for Lambda functions written in TypeScript.
 
 ## What's Included
 
 - Solution file system skeleton
-- eslint config
+- Basic eslint/prettier setup
 - Jest test setup
 - Set of npm scripts for common operations (`test`, `deploy`, `runlocal`)
 - Bash deploy script that creates new Lambda version
